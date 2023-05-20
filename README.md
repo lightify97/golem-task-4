@@ -1,12 +1,12 @@
-# Fastify Starter Template
+# Golem Network Test Task # 4
 
-This repository contains well tested fastify starter template. The default (main branch) repo contains bare fastify server with typescript support. We've also added other notable and common tools in other branches. Please see other branches for your specific needs. 
+This repository contains code for task # 4 in of Golem JS Preview program. I've tried to keep it simple but there could be a lot of improvements in the code.
 
 ## Installation
 
 ```bash
-$ git clone https://github.com/lightify97/fastify-starter.git
-$ cd fastify-starter
+$ git clone https://github.com/lightify97/golem-task-4/
+$ cd golem-task-4
 $ yarn install
 ```
 
@@ -14,22 +14,12 @@ $ yarn install
 
 ### Development
 ```bash
-# Required: typescript watch compilation
-$ yarn watch
+# Start the server
+$ yarn start
 
-# Required: development server with hot reload (nodemon)
+# Start development server with hot reload (nodemon)
 $ yarn dev
 
 # Format with prettier
 $ yarn format
-```
-
-### Production
-
-```bash
-# build for production
-$ yarn build
-
-# start production app
-$ yarn start
 ```
